@@ -7,4 +7,5 @@
     apt:
       name:
        - htop
+       - inkscape
       state: present
