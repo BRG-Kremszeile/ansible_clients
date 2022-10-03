@@ -4,6 +4,7 @@
   - name: Make system apt update & upgrade
     import_tasks: system_update.yml
   - name: Install packages
-    apt: name={{item}}
-    with_items:
-      - htop
+    apt:
+      name:
+       - htop
+      state: present
