@@ -10,4 +10,5 @@
        - gnome-shell-extension-manager
        - geogebra5
        - firefox-locale-de
+       - gnome-screenshot
       state: present
