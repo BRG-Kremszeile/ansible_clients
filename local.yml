@@ -7,4 +7,7 @@
     apt:
       name:
        - inkscape
+       - gnome-shell-extension-manager
+       - geogebra5
+       - firefox-locale-de
       state: present
