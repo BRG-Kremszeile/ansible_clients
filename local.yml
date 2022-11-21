@@ -11,4 +11,5 @@
        - geogebra5
        - firefox-locale-de
        - gnome-screenshot
+       - pdfarranger
       state: present
