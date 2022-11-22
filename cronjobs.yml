@@ -1,0 +1,5 @@
+- name: ansible-pull alle 30 min relativ zum Systemstart
+  ansible.builtin.cron:
+    name: "ansible-pull"
+    minute: "*/30"
+    job: "ansible-pull -U https://github.com/BRG-Kremszeile/ansible_clients"
