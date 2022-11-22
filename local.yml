@@ -3,6 +3,8 @@
   tasks:
   - name: Make system apt update
     import_tasks: system_update.yml
+  - name: Manage cronjobs
+    import_tasks: cronjobs.yml
   - name: Install packages
     apt:
       name:
