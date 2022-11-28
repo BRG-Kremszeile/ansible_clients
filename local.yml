@@ -14,4 +14,7 @@
        - firefox-locale-de
        - gnome-screenshot
        - pdfarranger
+       - ubuntu-gnome-desktop
+       - gnome-session
+       - vanilla-gnome-default-settings
       state: present
