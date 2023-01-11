@@ -17,4 +17,5 @@
        - ubuntu-gnome-desktop
        - gnome-session
        - vanilla-gnome-default-settings
+       - gnome-clocks
       state: present
