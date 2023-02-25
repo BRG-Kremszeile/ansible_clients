@@ -1,0 +1,6 @@
+#Widevine-Problem in Firefox aus PPA beheben
+- lineinfile:
+    path: /etc/apparmor.d/usr.bin.firefox
+    insertafter: '# per-user firefox configuration'
+    line: '  owner @{HOME}/.{firefox,mozilla}/**/gmp-widevinecdm/**/libwidevinecdm.so m,'
+    state: present
