@@ -5,6 +5,8 @@
     import_tasks: system_update.yml
   - name: Manage cronjobs
     import_tasks: cronjobs.yml
+  - name: Do bugfixes
+    import_tasks: bugfix.yml
   - name: Install packages
     apt:
       name:
