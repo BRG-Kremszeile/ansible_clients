@@ -2,4 +2,4 @@
   ansible.builtin.cron:
     name: "ansible-pull"
     minute: "*/30"
-    job: "ansible-pull -U https://github.com/BRG-Kremszeile/ansible_clients"
+    job: "ansible-pull -U https://gitlab.com/brg-kremszeile/ansible_client_schueler"
